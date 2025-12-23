@@ -77,6 +77,10 @@ If you have Docker installed, you can launch the entire system with one command 
 
 ## 📖 Usage Guide
 1. Register/Login: Create an account on the landing page. Your password is encrypted immediately.
+    For testing you can login as
+    ``` username : test_user_01
+        password: test_user_pwd_01
+    ```
 
 2. Start a Conversation: Use the + New Chat button in the sidebar to create a fresh session.
 
@@ -85,3 +89,4 @@ If you have Docker installed, you can launch the entire system with one command 
 4. Auto-Save: You can close your browser or restart the server; your messages are safely stored in the backend/data folder.
 
 5. Log Out: Use the logout button in the bottom left of the sidebar to end your session.
+
