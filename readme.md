@@ -21,11 +21,9 @@ I built this to explore the core architecture of real-time messaging, secure use
 
 - Database: SQLite with SQLAlchemy
 
-## Project Structure
-
-CHATAAPP-ASSIGNMENT/
-├── backend/            # FastAPI, SQLAlchemy, and Auth logic
-│   └── data/           # Persistent database storage
-├── frontend/           # React + Tailwind UI
-├── docker-compose.yml  # Orchestration for deployment
-└── .gitignore          # Keeps the repo clean
+## 🛠️ Local Setup Instructions
+1. Backend Setup
+Navigate to the backend folder:
+```
+    cd backend
+```
