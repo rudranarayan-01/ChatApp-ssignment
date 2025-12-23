@@ -22,8 +22,26 @@ I built this to explore the core architecture of real-time messaging, secure use
 - Database: SQLite with SQLAlchemy
 
 ## 🛠️ Local Setup Instructions
-1. Backend Setup
-Navigate to the backend folder:
+### Backend Setup
+1. Navigate to the backend folder:
 ```
     cd backend
+```
+2. Create and activate your virtual environment:
+```
+    python -m venv chatenv
+    # Windows:
+    chatenv\Scripts\activate
+    # Mac/Linux:
+    source chatenv/bin/activate
+```
+
+3. Install dependencies:
+```
+    pip install -r requirements.txt
+```
+
+4. Run the server:
+```
+    uvicorn main:app --reload
 ```
