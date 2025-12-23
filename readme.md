@@ -90,3 +90,4 @@ If you have Docker installed, you can launch the entire system with one command 
 
 5. Log Out: Use the logout button in the bottom left of the sidebar to end your session.
 
+Live URL: https://chat-frontend-yp4k.onrender.com
