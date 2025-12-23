@@ -64,3 +64,24 @@ The backend will be live at http://localhost:8000.
     npm run dev
 ```
 The UI will be live at http://localhost:5173.
+
+
+## 🐳 Docker Setup (Recommended for Deployment)
+If you have Docker installed, you can launch the entire system with one command from the root folder:
+```
+    docker-compose up --build
+```
+- Frontend: http://localhost
+
+- Backend: http://localhost:8000
+
+## 📖 Usage Guide
+1. Register/Login: Create an account on the landing page. Your password is encrypted immediately.
+
+2. Start a Conversation: Use the + New Chat button in the sidebar to create a fresh session.
+
+3. Messaging: Type your message in the input field. The bot uses a local intent-mapping engine to respond.
+
+4. Auto-Save: You can close your browser or restart the server; your messages are safely stored in the backend/data folder.
+
+5. Log Out: Use the logout button in the bottom left of the sidebar to end your session.
