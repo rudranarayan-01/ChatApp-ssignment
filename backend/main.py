@@ -10,7 +10,7 @@ app = FastAPI(title="Local ChatGPT")
 
 origins = [
     "http://localhost:5173",            
-    "hhttps://chat-frontend-yp4k.onrender.com/"  
+    "hhttps://chat-frontend-yp4k.onrender.com"  
 ]
 
 app.add_middleware(
