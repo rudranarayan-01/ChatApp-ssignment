@@ -45,3 +45,22 @@ I built this to explore the core architecture of real-time messaging, secure use
 ```
     uvicorn main:app --reload
 ```
+The backend will be live at http://localhost:8000.
+
+### . Frontend Setup
+
+1. In a new terminal, navigate to the frontend folder:
+```
+    cd frontend
+```
+
+2. Install packages:
+```
+    npm install
+```
+
+3. Start the development server:
+```
+    npm run dev
+```
+The UI will be live at http://localhost:5173.
