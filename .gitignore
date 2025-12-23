@@ -1,0 +1,14 @@
+# Backend ignores
+backend/chatenv/
+backend/__pycache__/
+backend/data/
+*.db
+*chatenv/
+
+# Frontend ignores
+frontend/node_modules/
+frontend/dist/
+
+# General
+.DS_Store
+.env

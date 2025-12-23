@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  # --- BACKEND SERVICE ---
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      # Maps your local 'backend/data' folder to the container's '/app/data'
+      - ./backend/data:/app/data
+    restart: always
+
+  # --- FRONTEND SERVICE ---
+  frontend:
+    build: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: always
